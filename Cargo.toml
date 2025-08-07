@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "shared_crypto",   # 共通暗号化ライブラリ
+  "backend",         # ESP32 用ファーム
+  "gui/src-tauri",   # Tauri アプリ
+]
+resolver = "2" 
